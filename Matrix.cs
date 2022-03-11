@@ -28,7 +28,7 @@ namespace DLCA
             _lengthX = Radius * 4;
             _lengthY = Radius * 4;
             _Matrix=new int[Radius * 4, Radius * 4];
-            _secondMatrix = new int[(Radius * 4)+2, (Radius * 4)+2];
+            _secondMatrix = new int[(Radius * 4), (Radius * 4)];
         }
 
         protected void MoveCell()
@@ -76,19 +76,23 @@ namespace DLCA
                 }
 
             }
-            RewriteMatrix();
+            RewriteMatrix(ID);
         }
 
-        private void RewriteMatrix()
+        private void RewriteMatrix(int ID)
         {
             for (int i = 0; i < _Matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < _Matrix.GetLength(1); j++)
                 {
-                    _y = i;
-                    _x = j;
-                    ChooseMotion();
-                    _secondMatrix[_y + 1, _x + 1] = _Matrix[i, j];
+                    if (_Matrix[i, j] == ID)
+                    {
+                        _y = i;
+                        _x = j;
+                        ChooseMotion();
+                        _secondMatrix[_y, _x] = _Matrix[i, j];
+                    }
+                    
                 }
 
             }
@@ -96,8 +100,8 @@ namespace DLCA
             {
                 for (int j = 0; j < _Matrix.GetLength(1); j++)
                 {
-                    _Matrix[i, j] = _secondMatrix[i + 1, j + 1];
-
+                    _Matrix[i, j] = _secondMatrix[i , j];
+                    _secondMatrix[i, j] = 0;
                 }
             }
         }
