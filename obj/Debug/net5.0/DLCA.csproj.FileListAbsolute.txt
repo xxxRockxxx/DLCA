@@ -1,0 +1,16 @@
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.csproj.AssemblyReference.cache
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.AssemblyInfoInputs.cache
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.AssemblyInfo.cs
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.csproj.CoreCompileInputs.cache
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\DLCA.exe
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\DLCA.deps.json
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\DLCA.runtimeconfig.json
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\DLCA.runtimeconfig.dev.json
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\DLCA.dll
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\ref\DLCA.dll
+E:\Projects\Repos\Ivanov\DLCA-1\bin\Debug\net5.0\DLCA.pdb
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.dll
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\ref\DLCA.dll
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.pdb
+E:\Projects\Repos\Ivanov\DLCA-1\obj\Debug\net5.0\DLCA.genruntimeconfig.cache
